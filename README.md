@@ -26,7 +26,7 @@ To clone this repository and set up the development environment:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/jtuckayo/react-base.git
+    git clone <repository-url>
     cd adopt-me
     ```
 2.  **Install dependencies:**
