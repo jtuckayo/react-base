@@ -1,47 +1,47 @@
-# 🚀 React App Base Repository
+# Adopt-Me Project
 
-This repository serves as a **modern, standardized starting point** for all new React projects.
+## 🛠️ Recommended Visual Studio Code Extensions (VS Code Users Only)
 
-It is built upon the foundational setup and configuration taught in **Brian Holt's _Complete Intro to React v8_** course. Clone or fork this repo to instantly bootstrap a new application with powerful build tooling and code quality checks already configured.
+For developers using **Visual Studio Code**, we highly recommend installing the following workspace extensions to ensure a consistent and productive development environment.
 
----
+These extensions are automatically suggested by VS Code when you open the project, based on the configuration in the `.vscode/extensions.json` file. You should be prompted to install them upon opening the folder.
 
-## 💻 Tech Stack & Features
-
-This base repo uses a fast, opinionated set of modern frontend tools:
-
-| Feature          | Tool                                                                    | Version/Purpose                                |
-| :--------------- | :---------------------------------------------------------------------- | :--------------------------------------------- |
-| **UI Library**   | **React**                                                               | `^18.2.0`                                      |
-| **Build Tool**   | **Vite**                                                                | `^3.1.4` (Fast Dev Server & Optimized Builds)  |
-| **Formatting**   | **Prettier**                                                            | `^2.7.1` (Automated Code Style)                |
-| **Linting**      | **ESLint**                                                              | `^8.24.0` (Code Quality & Bug Prevention)      |
-| **React Plugin** | `@vitejs/plugin-react`                                                  | Handles JSX and Fast Refresh                   |
-| **Lint Plugins** | `eslint-plugin-react`, `eslint-plugin-jsx-a11y`, `eslint-plugin-import` | Comprehensive React/Accessibility/Import rules |
+| Extension Name                | ID                          | Purpose                                                                                                       |
+| :---------------------------- | :-------------------------- | :------------------------------------------------------------------------------------------------------------ |
+| **ESLint**                    | `dbaeumer.vscode-eslint`    | Integrates ESLint into VS Code to highlight code quality issues, errors, and warnings.                        |
+| **Prettier - Code formatter** | `esbenp.prettier-vscode`    | Automatically formats code using our defined Prettier rules upon saving, maintaining consistent style.        |
+| **Material Icon Theme**       | `PKief.material-icon-theme` | Provides richer, more distinct icons for files and folders, improving visual clarity in the Explorer sidebar. |
 
 ---
 
-## 🛠️ Getting Started
+## 🚀 Available Scripts and Commands
 
-Follow these steps to use this repository for a new project.
+This project uses **Vite** as a build tool and includes scripts for development, building, and code quality using ESLint and Prettier.
 
-### 1. Clone & Setup
+| Script    | Command                                     | Description                                                                           |
+| :-------- | :------------------------------------------ | :------------------------------------------------------------------------------------ |
+| `dev`     | `vite`                                      | Starts the local development server.                                                  |
+| `build`   | `vite build`                                | Compiles the project for production deployment.                                       |
+| `preview` | `vite preview`                              | Locally serves and previews the production build.                                     |
+| `format`  | `prettier --write "src/**/*.{js,jsx}"`      | **Formats all files** in the `src` directory according to the Prettier configuration. |
+| `lint`    | `eslint "src/**/*.{js,jsx}" --quiet`        | Runs **ESLint** to check for code quality and style issues.                           |
+| `test`    | `echo "Error: no test specified" && exit 1` | Placeholder for future testing commands.                                              |
 
-Since this is a base repo, it's best to clone it and immediately create a new git history for your specific project:
+---
 
-```bash
-# 1. Clone the repository (replace [YOUR_REPO_URL] with the actual URL)
-git clone [YOUR_REPO_URL] my-new-app
+## Getting Started
 
-# 2. Navigate into the new directory
-cd my-new-app
+To get the project running on your local machine:
 
-# 3. Remove the old .git history
-rm -rf .git
-
-# 4. Initialize a fresh Git repository
-git init
-
-# 5. Install all dependencies
-npm install
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd adopt-me
+    ```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+3.  **Start the development server:**
+    `bash npm run dev `
+    The application should now be accessible in your web browser.
