@@ -1,2 +1,2 @@
-🔗 https://react-v8.holt.courses/lessons/core-react-concepts/jsx
-📽 lesson 8
+🔗 https://react-v8.holt.courses/lessons/core-react-concepts/hooks
+📽 lesson 10
