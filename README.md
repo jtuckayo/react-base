@@ -27,7 +27,7 @@ To clone this repository and set up the development environment:
 1.  **Clone the repository:**
     ```bash
     git clone <repository-url>
-    cd adopt-me
+    cd react-base
     ```
 2.  **Install dependencies:**
     This command installs all necessary `devDependencies` (Vite, ESLint, etc.) and `dependencies` (React, React-DOM).
