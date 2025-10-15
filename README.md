@@ -8,7 +8,7 @@ It uses **Vite** for fast bundling and **React 18** for component development, c
 
 ## 🛠️ Recommended Visual Studio Code Extensions (VS Code Users Only)
 
-To ensure a consistent and productive coding experience, especially with Prettier and ESLint, we highly recommend installing the following workspace extensions.
+To ensure a consistent and productive coding experience, especially with Prettier and ESLint, I highly recommend installing the following workspace extensions.
 
 These recommendations are automatically suggested by VS Code when you open the project, based on the configuration in the **`.vscode/extensions.json`** file. You should be prompted to install them upon opening the folder.
 
