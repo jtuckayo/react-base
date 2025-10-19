@@ -4,6 +4,7 @@ import TodoApp from "./components/practice/TodoApp";
 import Calculator from "./components/practice/Calculator";
 import ContactForm from "./components/practice/ContactForm";
 import BankAccountDetails from "./components/practice/BankAccountDetails";
+import LoginApp from "./components/practice/LoginApp";
 
 const App = () => {
   const [currentComponent, setCurrentComponent] = useState("menu");
@@ -14,6 +15,7 @@ const App = () => {
     calculator: "Calculator",
     contact: "Contact Form",
     bankAccount: "Bank Account Details",
+    loginApp: "Login & Authentication",
   };
 
   const renderComponent = () => {
@@ -26,6 +28,8 @@ const App = () => {
         return <ContactForm />;
       case "bankAccount":
         return <BankAccountDetails />;
+      case "loginApp":
+        return <LoginApp />;
       default:
         return (
           <div
@@ -55,7 +59,7 @@ const App = () => {
                     style={{
                       padding: "15px 20px",
                       fontSize: "16px",
-                      background: "#007bff",
+                      background: "#f7991f",
                       color: "white",
                       border: "none",
                       borderRadius: "8px",
@@ -63,15 +67,15 @@ const App = () => {
                       transition: "background-color 0.2s",
                     }}
                     onMouseOver={(e) =>
-                      (e.target.style.backgroundColor = "#0056b3")
+                      (e.target.style.backgroundColor = "#f8d10d")
                     }
                     onMouseOut={(e) =>
-                      (e.target.style.backgroundColor = "#007bff")
+                      (e.target.style.backgroundColor = "#f7991f")
                     }
                     onFocus={(e) =>
-                      (e.target.style.backgroundColor = "#0056b3")
+                      (e.target.style.backgroundColor = "#f8d10d")
                     }
-                    onBlur={(e) => (e.target.style.backgroundColor = "#007bff")}
+                    onBlur={(e) => (e.target.style.backgroundColor = "#f7991f")}
                   >
                     {name}
                   </button>

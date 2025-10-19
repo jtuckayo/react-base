@@ -5,11 +5,11 @@
 }
 
 .successMessage {
-  background: #d1edff;
-  color: #0c5460;
+  background: #f8d10dcc;
+  color: #333;
   padding: 20px;
   border-radius: 8px;
-  border: 1px solid #bee5eb;
+  border: 1px solid #f8d10d;
   text-align: center;
 }
 
@@ -53,6 +53,14 @@
   border-radius: 6px;
   font-size: 14px;
   box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.input:focus,
+.fileInput:focus {
+  outline: none;
+  border-color: #f7991f;
+  box-shadow: 0 0 0 2px rgba(247, 153, 31, 0.1);
 }
 
 .accountNumberInput {
@@ -76,9 +84,10 @@
 .fileInfo {
   margin-top: 8px;
   padding: 8px;
-  background: #e7f3ff;
+  background: #f8d10dcc;
   border-radius: 4px;
   font-size: 12px;
+  color: #333;
 }
 
 .error {
@@ -88,7 +97,7 @@
 }
 
 .submitButton {
-  background: #28a745;
+  background: #f7991f;
   color: white;
   padding: 12px 24px;
   border: none;
@@ -102,5 +111,5 @@
 
 .submitButton:hover,
 .submitButton:focus {
-  background: #218838;
+  background: #f8d10d;
 }

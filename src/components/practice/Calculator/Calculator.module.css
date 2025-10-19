@@ -5,10 +5,11 @@
 }
 
 .calculator {
-  background: #f0f0f0;
+  background: #f8d10dcc;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
+  border: 2px solid #f8d10d;
 }
 
 .display {
@@ -38,7 +39,8 @@
 }
 
 .button:hover {
-  background: #f5f5f5;
+  background: #f8d10d;
+  color: #333;
 }
 
 .equalsButton {
