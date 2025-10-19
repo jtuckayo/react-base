@@ -5,6 +5,7 @@ import Calculator from "./components/practice/Calculator";
 import ContactForm from "./components/practice/ContactForm";
 import BankAccountDetails from "./components/practice/BankAccountDetails";
 import LoginApp from "./components/practice/LoginApp";
+import MultiStepForm from "./components/practice/MultiStepForm";
 
 const App = () => {
   const [currentComponent, setCurrentComponent] = useState("menu");
@@ -16,6 +17,7 @@ const App = () => {
     contact: "Contact Form",
     bankAccount: "Bank Account Details",
     loginApp: "Login & Authentication",
+    multiStepForm: "Multi-Step Form",
   };
 
   const renderComponent = () => {
@@ -30,6 +32,8 @@ const App = () => {
         return <BankAccountDetails />;
       case "loginApp":
         return <LoginApp />;
+      case "multiStepForm":
+        return <MultiStepForm />;
       default:
         return (
           <div

@@ -2,6 +2,7 @@
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
+  font-family: 'Satoshi', sans-serif;
 }
 
 .authContainer {
@@ -43,6 +44,7 @@
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 14px;
+  font-family: 'Satoshi', sans-serif;
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
@@ -95,6 +97,7 @@
   border-radius: 6px;
   font-size: 16px;
   font-weight: 600;
+  font-family: 'Satoshi', sans-serif;
   cursor: pointer;
   transition: background-color 0.2s;
   margin-top: 10px;

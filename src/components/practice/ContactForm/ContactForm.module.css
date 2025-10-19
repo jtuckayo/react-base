@@ -2,6 +2,7 @@
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
+  font-family: 'Satoshi', sans-serif;
 }
 
 .successMessage {
@@ -36,6 +37,7 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 14px;
+  font-family: 'Satoshi', sans-serif;
   box-sizing: border-box;
   transition: border-color 0.2s;
 }

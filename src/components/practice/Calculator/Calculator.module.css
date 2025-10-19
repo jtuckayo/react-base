@@ -2,6 +2,7 @@
   max-width: 300px;
   margin: 0 auto;
   padding: 20px;
+  font-family: 'Satoshi', sans-serif;
 }
 
 .calculator {
@@ -31,6 +32,8 @@
   width: 60px;
   height: 60px;
   font-size: 18px;
+  font-family: 'Satoshi', sans-serif;
+  font-weight: 500;
   margin: 2px;
   border: 1px solid #ccc;
   border-radius: 4px;
